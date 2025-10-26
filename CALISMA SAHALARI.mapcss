@@ -1,0 +1,42 @@
+line|z8-18{ 
+
+width: eval( zlinear( 9, 1pt, 4pt) );
+color: mediumvioletred;
+casing-color:white; 
+casing-width:1px;  
+details-description: eval(tag('desc'));
+
+
+|z11-18{
+
+text-color:mediumvioletred;
+font-weight:bolder;
+font-size:7;
+font-stroke-width:4px;   
+font-stroke-color: white;
+text: eval(tag('name'));
+}
+
+[selected]{
+
+layer:10;   
+color:#ff000099; //color red
+casing-width:2pt;   
+casing-color:white; 
+width:5pt;   
+font-size:8;
+text-color:red;
+font-weight:bolder;
+
+font-stroke-width:4px;   
+font-stroke-color: white;
+text: eval(tag('name'));
+
+}
+
+//width: eval( zlinear( 13, 1px, 3pt, max(6pt) ) );
+//width:2pt;
+
+
+
+}
